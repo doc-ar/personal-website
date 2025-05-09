@@ -1,0 +1,27 @@
+.icon {
+  display: grid;
+  grid-template-columns: auto 0fr;
+  align-items: center;
+  transition: grid-template-columns 0.6s cubic-bezier(0.11, 0.88, 0.69, 0.97);
+}
+
+.icon > img {
+  width: 30px;
+  filter: var(--font-color-main-filter);
+}
+
+.icon > span {
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: 6px;
+  opacity: 0;
+  transition: opacity 0.4s cubic-bezier(0.11, 0.88, 0.69, 0.97);
+}
+
+.icon:hover {
+  grid-template-columns: auto 1fr;
+}
+
+.icon:hover > span {
+  opacity: 1;
+}

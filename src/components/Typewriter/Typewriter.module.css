@@ -1,0 +1,22 @@
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  animation:
+    typing 1.5s steps(25, end),
+    cursor 0.4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 25ch;
+  }
+}

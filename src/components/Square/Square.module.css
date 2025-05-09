@@ -1,0 +1,12 @@
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 12px;
+}
+
+.image {
+  width: 80%;
+  filter: var(--font-color-main-filter);
+}

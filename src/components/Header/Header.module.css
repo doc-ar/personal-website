@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  position: fixed;
+  gap: 20px;
+  padding: 12px;
+}
+
+.header > a {
+  color: var(--font-color-main);
+  font-size: 20px;
+  font-weight: 150px;
+  text-decoration: none;
+}

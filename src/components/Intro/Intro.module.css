@@ -1,0 +1,21 @@
+.intro_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.author_name {
+  color: var(--font-color-main);
+  font-size: 5em;
+}
+
+.tagline {
+  color: var(--font-color-main);
+  font-family: "Inter", sans-serif, monospace;
+  font-size: 40px;
+  font-weight: 150;
+  letter-spacing: 8px;
+  border-right: 2px solid;
+}
