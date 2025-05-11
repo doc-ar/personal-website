@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 
-import useLenis from "./utils/useLenis.js";
-import "./global_variables.css";
-import "./App.css";
-import Header from "./components/Header/Header";
-import Intro from "./components/Intro/Intro";
-import TechStack from "./components/TechStack/List";
-import TicTacToe from "./components/TicTacToe/Tictactoe.jsx";
+import useLenis from "/src/hooks/useLenis.js";
+import "/src/global_variables.css";
+import "/src/App.css";
+import Header from "/src/components/Header/Header";
+import Intro from "/src/components/Intro/Intro";
+import TechStack from "/src/components/TechStack/List";
+import TicTacToe from "/src/components/TicTacToe/Tictactoe";
 
 function App() {
   useLenis();
@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Intro />
         <TechStack />
-        <TicTacToe />
+        <TicTacToe className="tictactoe" />
       </div>
     </>
   );

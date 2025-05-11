@@ -21,15 +21,15 @@
 }
 
 #gradient-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   animation: gradient 15s ease infinite;
   background: linear-gradient(-45deg, #ee7752, #643ce7, #23a6d5, #23d5ab);
   background-size: 400% 400%;
 }
 
-#intro {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
+.tictactoe {
+  margin: 50px;
+  width: 40%;
 }
