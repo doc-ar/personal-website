@@ -17,7 +17,6 @@ function App() {
         <Header />
         <Intro />
         <TechStack />
-        <TicTacToe className="tictactoe" />
       </div>
     </>
   );

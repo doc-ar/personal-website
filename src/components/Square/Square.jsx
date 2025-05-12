@@ -5,7 +5,10 @@ export default function Square(props) {
   const [imgKey, setImgKey] = useState(0);
 
   useEffect(() => {
-    setImgKey((prev) => prev + 1); // runs only when src (props.icon) changes
+    setImgKey((prev) => prev + 1);
+    document
+      .getElementsByClassName(styles.image)[0]
+      .classList.remove(`${styles.reveal}`);
   }, [props.icon]);
 
   return (
@@ -14,7 +17,11 @@ export default function Square(props) {
         className={`${styles.square} ${props.className || ""}`}
         onClick={props.onClick}
       >
-        <img key={imgKey} className={styles.image} src={props.icon} />
+        <img
+          key={imgKey}
+          className={`${styles.image} ${styles.reveal} || ""`}
+          src={props.icon}
+        />
       </div>
     </>
   );
