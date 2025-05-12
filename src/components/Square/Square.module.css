@@ -9,6 +9,9 @@
 
 .image {
   filter: var(--font-color-main-filter);
+}
+
+.reveal {
   animation: logo_reveal 0.8s cubic-bezier(0.11, 0.88, 0.69, 0.97) forwards;
 }
 
