@@ -28,3 +28,8 @@
   background: linear-gradient(-45deg, #ee7752, #643ce7, #23a6d5, #23d5ab);
   background-size: 400% 400%;
 }
+
+.games_section {
+  margin: 120px;
+  width: 30%;
+}

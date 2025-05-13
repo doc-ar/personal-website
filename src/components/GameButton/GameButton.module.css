@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--container-bg-color);
+}
+
+.name {
+  width: 70%;
+  filter: var(--font-color-main-filter);
+}

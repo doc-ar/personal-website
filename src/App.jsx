@@ -6,7 +6,7 @@ import "/src/App.css";
 import Header from "/src/components/Header/Header";
 import Intro from "/src/components/Intro/Intro";
 import TechStack from "/src/components/TechStack/List";
-import TicTacToe from "/src/components/TicTacToe/Tictactoe";
+import Games from "/src/components/Games/Games";
 
 function App() {
   useLenis();
@@ -17,6 +17,7 @@ function App() {
         <Header />
         <Intro />
         <TechStack />
+        <Games className="games_section" />
       </div>
     </>
   );

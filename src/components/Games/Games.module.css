@@ -1,0 +1,60 @@
+:root {
+  --border_radius: 28px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: var(--font-size-heading);
+  font-weight: var(--font-weight-heading);
+  color: var(--font-color-main);
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.top_section {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+
+.buttons_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-bottom-right-radius: var(--border_radius);
+  box-shadow: var(--border_radius) var(--border_radius) 0 0
+    var(--container-bg-color);
+  clip-path: inset(0 0 0 0);
+  padding-bottom: 6%;
+  padding-right: 6%;
+  gap: 4%;
+}
+
+.game_button {
+  width: 100px;
+  aspect-ratio: 1/1;
+  border-radius: var(--border_radius);
+}
+
+.reset_section {
+  background-color: var(--container-bg-color);
+  border-top-left-radius: var(--border_radius);
+  border-top-right-radius: var(--border_radius);
+}
+
+.game_body {
+  grid-column: 1 / span 2;
+  background-color: var(--container-bg-color);
+  border-bottom-right-radius: var(--border_radius);
+  border-bottom-left-radius: var(--border_radius);
+  border-top-left-radius: var(--border_radius);
+  padding: 5%;
+}
+
+.game {
+  width: 100%;
+}
