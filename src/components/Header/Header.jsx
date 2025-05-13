@@ -16,6 +16,7 @@ function Header() {
         >
           LinkedIn
         </HeaderIcon>
+        <span>The Site Is Currently Under Construction</span>
       </nav>
     </>
   );
