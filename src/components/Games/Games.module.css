@@ -2,6 +2,10 @@
   --border_radius: 28px;
 }
 
+.test {
+  background-color: red;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -44,6 +48,28 @@
   background-color: var(--container-bg-color);
   border-top-left-radius: var(--border_radius);
   border-top-right-radius: var(--border_radius);
+  padding: 4%;
+}
+
+.reset_button {
+  display: flex;
+  align-items: center;
+  gap: 4%;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--border_radius);
+  background-color: var(--container-bg-color);
+}
+
+.reset_icon {
+  width: 10%;
+  filter: var(--font-color-main-filter);
+}
+
+.reset_text {
+  font-size: 200%;
+  color: var(--font-color-main);
 }
 
 .game_body {

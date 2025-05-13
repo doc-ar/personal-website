@@ -8,13 +8,13 @@
 
 .author_name {
   color: var(--font-color-main);
-  font-size: 5em;
+  font-size: clamp(1.5rem, 8vw, 5rem);
 }
 
 .tagline {
   color: var(--font-color-main);
   font-family: "Inter", sans-serif, monospace;
-  font-size: 40px;
+  font-size: clamp(0.2rem, 4vw, 2.5rem);
   font-weight: 150;
   letter-spacing: 8px;
   border-right: 2px solid;
