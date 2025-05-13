@@ -14,6 +14,9 @@ function App() {
   return (
     <>
       <div id="gradient-bg">
+        <span className="construction_banner">
+          The Site Is Currently Under Construction
+        </span>
         <Header />
         <Intro />
         <TechStack />

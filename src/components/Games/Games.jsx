@@ -16,7 +16,7 @@ export default function Games(props) {
   return (
     <>
       <div className={`${styles.container} ${props.className || ""}`}>
-        <h1 className={styles.header}>Play A Game</h1>
+        <h1 className={styles.header}>Play a game</h1>
         <div className={styles.top_section}>
           <div className={styles.buttons_container}>
             <GameButton className={styles.game_button} icon={tictactoeIcon} />

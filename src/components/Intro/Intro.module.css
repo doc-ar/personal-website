@@ -15,7 +15,7 @@
   color: var(--font-color-main);
   font-family: "Inter", sans-serif, monospace;
   font-size: clamp(0.2rem, 4vw, 2.5rem);
-  font-weight: 150;
+  font-weight: 250;
   letter-spacing: 8px;
   border-right: 2px solid;
 }

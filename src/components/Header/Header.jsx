@@ -7,16 +7,20 @@ function Header() {
   return (
     <>
       <nav className={styles.header}>
-        <HeaderIcon icon={githubIcon} url="https://github.com/doc-ar">
+        <HeaderIcon
+          icon={githubIcon}
+          url="https://github.com/doc-ar"
+          className={styles.icon}
+        >
           Github
         </HeaderIcon>
         <HeaderIcon
           icon={linkedinIcon}
           url="https://www.linkedin.com/in/aburrahmankhan/"
+          className={styles.icon}
         >
           LinkedIn
         </HeaderIcon>
-        <span>The Site Is Currently Under Construction</span>
       </nav>
     </>
   );

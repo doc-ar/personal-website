@@ -3,6 +3,7 @@
   grid-template-columns: auto 0fr;
   align-items: center;
   transition: grid-template-columns 0.6s cubic-bezier(0.11, 0.88, 0.69, 0.97);
+  text-decoration: none;
 }
 
 .icon > img {
@@ -11,6 +12,9 @@
 }
 
 .icon > span {
+  color: var(--font-color-main);
+  font-size: 20px;
+  font-weight: 150px;
   overflow: hidden;
   white-space: nowrap;
   padding-left: 6px;

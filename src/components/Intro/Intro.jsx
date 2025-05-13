@@ -7,7 +7,7 @@ export default function Intro() {
       <div className={styles.intro_container}>
         <h1 className={styles.author_name}>AbdurRahman Khan</h1>
         <Typewriter as="h2" className={styles.tagline}>
-          Welcome To My Website
+          Welcome to my website
         </Typewriter>
       </div>
     </>

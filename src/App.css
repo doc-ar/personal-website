@@ -20,6 +20,15 @@
   }
 }
 
+.construction_banner {
+  background-color: var(--container-bg-color);
+  width: 100%;
+  text-align: center;
+  color: var(--font-color-main);
+  font-size: 25px;
+  font-weight: 600;
+}
+
 #gradient-bg {
   display: flex;
   flex-direction: column;
