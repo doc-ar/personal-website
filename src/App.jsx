@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
+import useLenis from "hooks/useLenis.js";
+import "./global_variables.css";
+import "./App.css";
 
-import useLenis from "/src/hooks/useLenis.js";
-import "/src/global_variables.css";
-import "/src/App.css";
-import Header from "/src/components/Header/Header";
-import Intro from "/src/components/Intro/Intro";
-import TechStack from "/src/components/TechStack/List";
-import Games from "/src/components/Games/Games";
+import Header from "components/Header";
+import Intro from "components/Intro";
+import TechStack from "components/TechStack";
+import Games from "components/Games";
 
 function App() {
   useLenis();

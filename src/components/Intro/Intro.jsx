@@ -1,5 +1,5 @@
 import styles from "./Intro.module.css";
-import Typewriter from "../Typewriter/Typewriter";
+import Typewriter from "components/Typewriter";
 
 export default function Intro() {
   return (

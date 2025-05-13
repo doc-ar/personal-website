@@ -1,15 +1,16 @@
-import styles from "./List.module.css";
-import AnimatedLogo from "../AnimatedLogo/AnimatedLogo.jsx";
-import nodejsLogo from "/src/assets/nodejs.svg";
-import reactLogo from "/src/assets/react.svg";
-import goLogo from "/src/assets/go.svg";
-import dockerLogo from "/src/assets/docker.svg";
-import nginxLogo from "/src/assets/nginx.svg";
-import githubLogo from "/src/assets/github.svg";
-import postgresqlLogo from "/src/assets/postgresql.svg";
-import gitLogo from "/src/assets/git.svg";
+import styles from "./TechStack.module.css";
+import AnimatedLogo from "components/AnimatedLogo";
 
-export default function ItemList() {
+import nodejsLogo from "assets/nodejs.svg";
+import reactLogo from "assets/react.svg";
+import goLogo from "assets/go.svg";
+import dockerLogo from "assets/docker.svg";
+import nginxLogo from "assets/nginx.svg";
+import githubLogo from "assets/github.svg";
+import postgresqlLogo from "assets/postgresql.svg";
+import gitLogo from "assets/git.svg";
+
+export default function TechStack() {
   const initial_delay = 0;
   const delay = 200;
 

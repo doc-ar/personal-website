@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
-import HeaderIcon from "../HeaderIcon/HeaderIcon";
-import githubIcon from "/src/assets/github.svg";
-import linkedinIcon from "/src/assets/linkedin.svg";
+import HeaderIcon from "components/HeaderIcon";
+import githubIcon from "assets/github.svg";
+import linkedinIcon from "assets/linkedin.svg";
 
 function Header() {
   return (

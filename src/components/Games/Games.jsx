@@ -1,8 +1,8 @@
 import styles from "./Games.module.css";
-import GameButton from "/src/components/GameButton/GameButton";
-import TicTacToe from "/src/components/TicTacToe/Tictactoe";
-import tictactoeIcon from "/src/assets/tictactoe.svg";
-import two48Icon from "/src/assets/2048.svg";
+import GameButton from "components/GameButton";
+import TicTacToe from "components/TicTacToe";
+import tictactoeIcon from "assets/tictactoe.svg";
+import two48Icon from "assets/2048.svg";
 
 export default function Games(props) {
   return (
