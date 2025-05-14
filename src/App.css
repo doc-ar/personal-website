@@ -23,9 +23,9 @@
 .construction_banner {
   background-color: var(--container-bg-color);
   width: 100%;
-  text-align: right;
+  text-align: center;
   color: var(--font-color-main);
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
 }
 
