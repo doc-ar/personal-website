@@ -9,6 +9,8 @@
 
 .image {
   filter: var(--font-color-main-filter);
+  /* opacity: 0; */
+  /* transform: rotate(-15deg) scale(0.8); */
 }
 
 .reveal {
@@ -18,12 +20,10 @@
 @keyframes logo_reveal {
   0% {
     opacity: 0;
-    width: 80%;
-    rotate: -15deg;
+    transform: rotate(-15deg) scale(0.8);
   }
   100% {
     opacity: 1;
-    width: 100%;
-    rotate: 0deg;
+    transform: rotate(0deg) scale(1);
   }
 }
