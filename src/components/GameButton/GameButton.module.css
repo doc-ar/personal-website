@@ -5,7 +5,7 @@
   background-color: var(--container-bg-color);
 }
 
-.name {
+.icon {
   width: 70%;
   filter: var(--font-color-main-filter);
 }

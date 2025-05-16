@@ -10,7 +10,7 @@ import githubLogo from "assets/github.svg";
 import postgresqlLogo from "assets/postgresql.svg";
 import gitLogo from "assets/git.svg";
 
-export default function TechStack() {
+export default function TechStack(props) {
   const initial_delay = 0;
   const delay = 200;
 
@@ -27,7 +27,7 @@ export default function TechStack() {
 
   return (
     <>
-      <div className={styles.list_container}>
+      <div className={`${styles.list_container} ${props.className || ""}`}>
         <h1>Technologies</h1>
         <div className={styles.items_list}>
           {logos.map((logo, index) => (

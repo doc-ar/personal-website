@@ -2,7 +2,7 @@ import styles from "./Games.module.css";
 import GameButton from "components/GameButton";
 import TicTacToe from "components/TicTacToe";
 import tictactoeIcon from "assets/tictactoe.svg";
-import two48Icon from "assets/2048.svg";
+import brainIcon from "assets/memory.svg";
 import resetIcon from "assets/reset.svg";
 import { useState } from "react";
 
@@ -20,7 +20,7 @@ export default function Games(props) {
         <div className={styles.top_section}>
           <div className={styles.buttons_container}>
             <GameButton className={styles.game_button} icon={tictactoeIcon} />
-            <GameButton className={styles.game_button} icon={two48Icon} />
+            <GameButton className={styles.game_button} icon={brainIcon} />
           </div>
           <div className={styles.reset_section}>
             <div className={styles.reset_button} onClick={() => resetOnClick()}>

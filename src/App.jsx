@@ -13,13 +13,13 @@ function App() {
 
   return (
     <>
-      <div id="gradient-bg">
+      <div className="gradient-bg">
         <span className="construction_banner">
-          The Site Is Currently Under Construction
+          This Site Is Currently Under Construction
         </span>
         <Header />
         <Intro />
-        <TechStack />
+        <TechStack className="tech_stack" />
         <Games className="games_section" />
       </div>
     </>

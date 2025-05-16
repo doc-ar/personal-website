@@ -20,16 +20,8 @@
   }
 }
 
-.construction_banner {
-  background-color: var(--container-bg-color);
-  width: 100%;
-  text-align: center;
-  color: var(--font-color-main);
-  font-size: 40px;
-  font-weight: 600;
-}
-
-#gradient-bg {
+.gradient-bg {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +30,23 @@
   background-size: 400% 400%;
 }
 
+.construction_banner {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  color: var(--font-color-main);
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.tech_stack {
+  width: 70%;
+}
+
 .games_section {
   margin: 120px;
-  width: 30%;
+  width: 40%;
 }
