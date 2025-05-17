@@ -12,6 +12,7 @@ export default function renderBoard(squares, handleClick, styles) {
 
         return (
           <Square
+            key={index}
             index={index}
             className={styles.cell}
             icon={icon}

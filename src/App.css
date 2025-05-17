@@ -31,6 +31,7 @@
 }
 
 .construction_banner {
+  display: none;
   position: fixed;
   z-index: 100;
   bottom: 0;
@@ -48,5 +49,19 @@
 
 .games_section {
   margin: 120px;
-  width: 40%;
+  width: 30%;
+}
+
+.simulation {
+  border-radius: 38px;
+  margin: 20px;
+  width: 70%;
+  aspect-ratio: 2/1;
+  background-color: var(--container-bg-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .games_section {
+    width: 60%;
+  }
 }

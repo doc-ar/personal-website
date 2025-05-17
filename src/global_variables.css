@@ -2,9 +2,16 @@
   --container-bg-color: rgba(2, 3, 3, 0.2);
 
   --global-font-family: "Inter", sans-serif;
+  --font-size-heading: 50px;
+  --font-weight-heading: 300;
+
   --font-color-main: #edeabe;
   --font-color-main-filter: brightness(0) saturate(100%) invert(90%) sepia(45%)
     saturate(182%) hue-rotate(1deg) brightness(98%) contrast(89%);
-  --font-size-heading: 50px;
-  --font-weight-heading: 300;
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --font-size-heading: 35px;
+  }
 }

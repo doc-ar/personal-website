@@ -1,5 +1,5 @@
 :root {
-  --border_radius: 2.5vw;
+  --border_radius: 30px;
 }
 
 .test {
@@ -39,7 +39,7 @@
 }
 
 .game_button {
-  width: 8vw;
+  width: 100px;
   aspect-ratio: 1/1;
   border-radius: var(--border_radius);
 }
@@ -72,12 +72,13 @@
 }
 
 .reset_icon {
-  width: 10%;
+  width: 35px;
   filter: var(--font-color-main-filter);
 }
 
 .reset_text {
-  font-size: 3vw;
+  font-size: 40px;
+  font-weight: 400;
   color: var(--font-color-main);
 }
 
@@ -92,4 +93,21 @@
 
 .game {
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --border_radius: 20px;
+  }
+  .game_button {
+    width: 70px;
+  }
+
+  .reset_icon {
+    width: 20px;
+  }
+
+  .reset_text {
+    font-size: 25px;
+  }
 }

@@ -27,3 +27,10 @@
   width: 6.5em;
   aspect-ratio: 1/1;
 }
+
+@media only screen and (max-width: 600px) {
+  .logo_icon {
+    width: 4em;
+    aspect-ratio: 1/1;
+  }
+}

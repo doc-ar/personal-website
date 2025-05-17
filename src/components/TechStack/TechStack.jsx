@@ -32,6 +32,7 @@ export default function TechStack(props) {
         <div className={styles.items_list}>
           {logos.map((logo, index) => (
             <AnimatedLogo
+              key={index}
               className={styles.logo_icon}
               logo={logo}
               delay={initial_delay + delay * index}
