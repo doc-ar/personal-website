@@ -1,5 +1,5 @@
 .intro_container {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,14 +8,25 @@
 
 .author_name {
   color: var(--font-color-main);
-  font-size: clamp(1.5rem, 8vw, 5rem);
+  font-size: 85px;
 }
 
 .tagline {
   color: var(--font-color-main);
   font-family: "Inter", sans-serif, monospace;
-  font-size: clamp(0.2rem, 4vw, 2.5rem);
+  font-size: 40px;
   font-weight: 250;
   letter-spacing: 8px;
   border-right: 2px solid;
+}
+
+@media only screen and (max-width: 600px) {
+  .author_name {
+    font-size: 30px;
+  }
+
+  .tagline {
+    font-size: 10px;
+    letter-spacing: 4px;
+  }
 }

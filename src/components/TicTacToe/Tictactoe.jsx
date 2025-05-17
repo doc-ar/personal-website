@@ -29,7 +29,7 @@ export default function TicTacToe(props) {
 
   return (
     <div className={`${styles.grid} ${props.className || ""}`}>
-      <div className={styles.winLine} style={winLineStyle}></div>
+      <div className={styles.winline} style={winLineStyle}></div>
       {renderBoard(squares, handleClick, styles)}
     </div>
   );

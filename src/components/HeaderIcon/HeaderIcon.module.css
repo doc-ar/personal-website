@@ -7,7 +7,6 @@
 }
 
 .icon > img {
-  width: 30px;
   filter: var(--font-color-main-filter);
 }
 

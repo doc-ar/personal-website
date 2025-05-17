@@ -2,7 +2,7 @@
   overflow: hidden;
   white-space: nowrap;
   animation:
-    typing 1.5s steps(25, end),
+    typing 1.2s steps(25, end),
     cursor 0.4s step-end infinite alternate;
 }
 
@@ -18,5 +18,16 @@
   }
   100% {
     width: 25ch;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  @keyframes typing {
+    0% {
+      width: 0ch;
+    }
+    100% {
+      width: 33ch;
+    }
   }
 }

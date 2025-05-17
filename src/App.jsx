@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import useLenis from "hooks/useLenis.js";
 import "./global_variables.css";
 import "./App.css";
@@ -14,13 +13,13 @@ function App() {
   return (
     <>
       <div className="gradient-bg">
-        <span className="construction_banner">
-          This Site Is Currently Under Construction
-        </span>
         <Header />
         <Intro />
         <TechStack className="tech_stack" />
         <Games className="games_section" />
+        <span className="construction_banner">
+          This Site Is Currently Under Construction
+        </span>
       </div>
     </>
   );

@@ -5,4 +5,7 @@ import jsconfigpaths from "vite-jsconfig-paths";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), jsconfigpaths()],
+  server: {
+    host: true,
+  },
 });

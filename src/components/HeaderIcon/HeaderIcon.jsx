@@ -1,13 +1,10 @@
 import styles from "./HeaderIcon.module.css";
 
 export default function HeaderIcon(props) {
-  const combinedClassName =
-    `${styles.typewriter} ${props.className || ""}`.trim();
-
   return (
     <>
       <a className={styles.icon} href={props.url}>
-        <img src={props.icon} />
+        <img src={props.icon} className={props.className} />
         <span>{props.children}</span>
       </a>
     </>
