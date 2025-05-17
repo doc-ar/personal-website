@@ -39,7 +39,7 @@
 }
 
 .game_button {
-  width: 100px;
+  width: 110px;
   aspect-ratio: 1/1;
   border-radius: var(--border_radius);
 }
@@ -97,17 +97,17 @@
 
 @media only screen and (max-width: 600px) {
   :root {
-    --border_radius: 20px;
+    --border_radius: 15px;
   }
   .game_button {
-    width: 70px;
+    width: 45px;
   }
 
   .reset_icon {
-    width: 20px;
+    width: 15px;
   }
 
   .reset_text {
-    font-size: 25px;
+    font-size: 20px;
   }
 }

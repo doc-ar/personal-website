@@ -29,8 +29,13 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .items_list {
+    border-radius: 24px;
+    gap: 0.4em;
+    padding: 0.5em;
+  }
+
   .logo_icon {
-    width: 4em;
-    aspect-ratio: 1/1;
+    width: 2.5em;
   }
 }
