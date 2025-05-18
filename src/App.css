@@ -56,11 +56,7 @@
 }
 
 .simulation {
-  border-radius: 38px;
   width: 70%;
-  aspect-ratio: 2/1;
-  background-color: var(--container-bg-color);
-  box-shadow: inset 0 0 0 0.8px rgba(0, 0, 0, 0.3);
 }
 
 @media only screen and (max-width: 600px) {
@@ -72,5 +68,7 @@
   }
   .games_section {
     width: 70%;
+  }
+  .simulation {
   }
 }

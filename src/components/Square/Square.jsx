@@ -1,9 +1,11 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import styles from "./Square.module.css";
 
 export default function Square(props) {
+  const imgRef = useRef(null);
+
   useEffect(() => {
-    const image = document.getElementsByClassName(styles.image)[props.index];
+    const image = imgRef.current;
     image.classList.add(styles.reveal);
 
     setTimeout(() => {
@@ -17,7 +19,7 @@ export default function Square(props) {
         className={`${styles.square} ${props.className || ""}`}
         onClick={props.onClick}
       >
-        <img className={styles.image} src={props.icon} />
+        <img ref={imgRef} className={styles.image} src={props.icon} />
       </div>
     </>
   );
