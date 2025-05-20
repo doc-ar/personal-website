@@ -21,6 +21,7 @@
 }
 
 .gradient-bg {
+  z-index: 1;
   position: relative;
   display: flex;
   gap: 120px;
@@ -33,6 +34,22 @@
 
 .gradient-bg::after {
   content: "";
+}
+
+.spline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.intro_section {
+  z-index: 3;
+  pointer-events: none;
+}
+
+.spline > canvas {
+  height: 100%;
 }
 
 .construction_banner {
@@ -48,14 +65,17 @@
 }
 
 .tech_stack {
+  z-index: 3;
   width: 70%;
 }
 
 .games_section {
+  z-index: 3;
   width: 30%;
 }
 
 .simulation {
+  z-index: 3;
   width: 70%;
 }
 
@@ -63,12 +83,13 @@
   .construction_banner {
     font-size: 14px;
   }
+  .spline {
+    padding: 5%;
+  }
   .gradient-bg {
     gap: 60px;
   }
   .games_section {
     width: 70%;
-  }
-  .simulation {
   }
 }
