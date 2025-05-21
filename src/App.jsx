@@ -1,5 +1,5 @@
 import useLenis from "hooks/useLenis.js";
-// import Spline from "@splinetool/react-spline";
+import Spline from "@splinetool/react-spline";
 import "./global_variables.css";
 import "./App.css";
 
@@ -16,10 +16,7 @@ function App() {
     <>
       <div className="gradient-bg">
         <Header />
-        {/* <Spline */}
-        {/*   scene="/src/assets/spline/model.splinecode" */}
-        {/*   className="spline" */}
-        {/* /> */}
+        <Spline scene="/spline/model.splinecode" className="spline" />
         <Intro className="intro_section" />
         <TechStack className="tech_stack" />
         <Games className="games_section" />
