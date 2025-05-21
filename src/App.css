@@ -41,6 +41,8 @@
   top: 0;
   left: 0;
   z-index: 2;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 .intro_section {
@@ -82,9 +84,6 @@
 @media only screen and (max-width: 600px) {
   .construction_banner {
     font-size: 14px;
-  }
-  .spline {
-    padding: 5%;
   }
   .gradient-bg {
     gap: 60px;
