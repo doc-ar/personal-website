@@ -32,6 +32,9 @@
   .author_name {
     font-size: 30px;
   }
+  .author_name:hover {
+    font-size: 32px;
+  }
 
   .tagline {
     font-size: 10px;
