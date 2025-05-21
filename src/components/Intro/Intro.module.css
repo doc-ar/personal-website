@@ -9,6 +9,14 @@
 .author_name {
   color: var(--font-color-main);
   font-size: 85px;
+  transition:
+    font-size 1.5s ease,
+    color 1s ease;
+}
+
+.author_name:hover {
+  font-size: 100px;
+  color: #facd96;
 }
 
 .tagline {
