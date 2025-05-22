@@ -22,6 +22,10 @@
     saturate(182%) hue-rotate(1deg) brightness(98%) contrast(89%);
   --simulation-cell-color: #edeabe;
   --simulation-grid-color: rgba(0, 0, 0, 0.5);
+  --tictactoe-square-color: rgba(0, 0, 0, 0.6);
+  --tictactoe-player-color: brightness(0) saturate(100%) invert(90%) sepia(45%)
+    saturate(182%) hue-rotate(1deg) brightness(98%) contrast(89%);
+  --tictactoe-win-color: red;
 }
 
 .black_yellow_theme {
@@ -32,6 +36,10 @@
   --container-bg-color: rgba(2, 3, 3, 0.2);
   --simulation-cell-color: #1f2b37;
   --simulation-grid-color: rgba(122, 108, 63, 0.8);
+  --tictactoe-square-color: rgba(122, 108, 63, 0.8);
+  --tictactoe-player-color: brightness(0) saturate(100%) invert(10%) sepia(61%)
+    saturate(439%) hue-rotate(169deg) brightness(90%) contrast(86%);
+  --tictactoe-win-color: rgba(220, 0, 0, 0.9);
 }
 
 @media only screen and (max-width: 600px) {

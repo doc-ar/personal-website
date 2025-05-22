@@ -9,12 +9,10 @@ import Games from "components/Games";
 import GameOfLife from "components/GameOfLife";
 import useObserver from "hooks/useObserver";
 import useKeyObserver from "hooks/useKeyObserver";
-import { useEffect, useState } from "react";
-import useDefaultTheme from "hooks/useDefaultTheme";
+import { useState } from "react";
 
 function App() {
   const [key, setKey] = useState(0);
-  useDefaultTheme("gradient_theme");
   useLenis();
   useKeyObserver(".key", setKey);
   useObserver(".hidden", "reveal");

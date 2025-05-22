@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: var(--tictactoe-square-color);
   padding: 20%;
   border-radius: 12px;
 }
 
 .image {
-  filter: var(--font-color-main-filter);
+  filter: var(--tictactoe-player-color);
   /* opacity: 0; */
   /* transform: rotate(-15deg) scale(0.8); */
 }

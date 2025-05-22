@@ -13,7 +13,7 @@
   height: 10px;
   width: 0%;
   border-radius: 25px;
-  background-color: red;
+  background-color: var(--tictactoe-win-color);
   transform-origin: center center;
   transform: translate(-50%, -50%) rotate(90deg) scaleX(1);
   transition: width 0.4s ease-in-out;
