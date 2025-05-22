@@ -1,6 +1,9 @@
+import getVariableValue from "./getVariableValue";
+
 export function drawGrid(canvasState) {
   const { ctx, cols, rows, cellSize } = canvasState;
-  ctx.strokeStyle = "rgba(0, 0, 0, 0.5)";
+  const gridColor = getVariableValue("--simulation-grid-color");
+  ctx.strokeStyle = gridColor;
 
   for (let x = 0; x <= cols; x++) {
     ctx.beginPath();
@@ -19,7 +22,8 @@ export function drawGrid(canvasState) {
 
 export function fillCell(canvasState, col, row) {
   const { ctx, cellSize } = canvasState;
-  ctx.fillStyle = "#edeabe";
+  const cellColor = getVariableValue("--simulation-cell-color");
+  ctx.fillStyle = cellColor;
   ctx.fillRect(
     col * cellSize + 1,
     row * cellSize + 1,

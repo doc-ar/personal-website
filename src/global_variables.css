@@ -1,13 +1,37 @@
 :root {
-  --container-bg-color: rgba(2, 3, 3, 0.2);
-
   --global-font-family: "Inter", sans-serif;
   --font-size-heading: 50px;
   --font-weight-heading: 300;
+}
 
+.gradient_theme {
+  --background-color: linear-gradient(
+    -45deg,
+    #23a6d5,
+    #643ce7,
+    #23a6d5,
+    #643ce7,
+    #23a6d5,
+    #643ce7,
+    #23a6d5,
+    #643ce7
+  );
+  --container-bg-color: rgba(2, 3, 3, 0.2);
   --font-color-main: #edeabe;
   --font-color-main-filter: brightness(0) saturate(100%) invert(90%) sepia(45%)
     saturate(182%) hue-rotate(1deg) brightness(98%) contrast(89%);
+  --simulation-cell-color: #edeabe;
+  --simulation-grid-color: rgba(0, 0, 0, 0.5);
+}
+
+.black_yellow_theme {
+  --background-color: #fbdf5a;
+  --font-color-main: #1f2b37;
+  --font-color-main-filter: brightness(0) saturate(100%) invert(10%) sepia(61%)
+    saturate(439%) hue-rotate(169deg) brightness(90%) contrast(86%);
+  --container-bg-color: rgba(2, 3, 3, 0.2);
+  --simulation-cell-color: #1f2b37;
+  --simulation-grid-color: rgba(122, 108, 63, 0.8);
 }
 
 @media only screen and (max-width: 600px) {

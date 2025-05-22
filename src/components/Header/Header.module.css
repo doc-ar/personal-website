@@ -1,6 +1,11 @@
 .header {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  position: fixed;
+  position: absolute;
+}
+
+.icons {
   display: flex;
   justify-content: left;
   align-items: center;
@@ -10,4 +15,22 @@
 
 .icon {
   width: 30px;
+  filter: var(--font-color-main-filter);
+  overflow: hidden;
+}
+
+.themes {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+  padding: 12px;
+}
+
+.theme_icon {
+  width: 30px;
+  border-radius: 50%;
+  rotate: 45deg;
+  transition: border 0.4s ease-in-out;
+  border: 2px var(--font-color-main) solid;
 }

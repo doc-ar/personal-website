@@ -8,6 +8,11 @@
   scroll-behavior: smooth;
 }
 
+.header {
+  position: relative;
+  z-index: 4;
+}
+
 .gradient-bg {
   z-index: 1;
   position: relative;
@@ -16,17 +21,7 @@
   flex-direction: column;
   align-items: center;
   animation: gradient 8s ease infinite;
-  background: linear-gradient(
-    -45deg,
-    #23a6d5,
-    #643ce7,
-    #23a6d5,
-    #643ce7,
-    #23a6d5,
-    #643ce7,
-    #23a6d5,
-    #643ce7
-  );
+  background: var(--background-color);
   background-size: 300% 300%;
 }
 
